@@ -23,8 +23,7 @@ Website ini saya hosting gratis menggunakan **GitHub Pages**.
 ---
 
 ## 🚀 Live Demo
-👉 [Klik di sini untuk melihat website](https://username.github.io/portfolio)  
-*(ganti `username` dengan akun GitHub kamu)*
+👉 [Klik di sini untuk melihat website](https://noolep.github.io/Portfolio/)  
 
 ---
 
