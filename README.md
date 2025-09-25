@@ -29,24 +29,37 @@ Website ini saya hosting gratis menggunakan **GitHub Pages**.
 
 ## 📂 Struktur Folder
 /portfolio
+
 │
+
 ├── index.html
+
 ├── about.html
+
 ├── projects.html
+
 ├── contact.html
+
 │
+
 ├── /css
+
 │ └── style.css
+
 │
+
 ├── /img
+
 │ └── hero-bg.jpg
+
 │
+
 └── README.md
 
 ## ✨ Tentang Saya
 Saya **Neko**, seorang pelajar yang tertarik pada **Web Development, Cybersecurity, dan AI**.  
 Saya suka bereksperimen dengan teknologi baru, seperti **bot, automation, dan AI assistant (Live2D, TTS)**.  
-Tujuan saya adalah menjadi seorang **White Hat Hacker** profesional. 💻⚡
+Tujuan saya adalah menjadi seorang **Cyber Security** profesional. 💻⚡
 
 ---
 
