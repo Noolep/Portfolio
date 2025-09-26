@@ -39,9 +39,9 @@ window.addEventListener("scroll", () => {
 const typingTarget = document.getElementById("typing-text");
 if (typingTarget) {
   const words = [
-    "Web Developer",
+    "Web Developer ",
     "Cybersecurity Enthusiast",
-    "Student"
+    "Student Form SMKN 2 Indramayu "
   ];
   let wordIndex = 0;
   let charIndex = 0;
@@ -69,3 +69,4 @@ if (typingTarget) {
 
   typeEffect();
 }
+
