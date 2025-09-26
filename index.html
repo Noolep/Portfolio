@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portofolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neko Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <nav class="navbar">
-    <div class="logo">Neko</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
+    <div class="logo" id="logo">Neko</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
+    <label class="switch">
+    <input type="checkbox" id="darkModeToggle">
+    <span class="slider">
+    <span class="icon">🌙</span>
+    </span>
+</label>
+
   </nav>
 
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-text">
-      <h1>Hi, I'm Neko👋</h1>
-      <p>Student • Web Dev Enthusiast</p>
+      <h1>Welcome to My Portfolio</h1>
+      <p><span id="typing-text"></span><span class="cursor">|</span></p>
       <a href="projects.html" class="btn">My Projects</a>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Neko. Built with ❤️ and GitHub Pages.</p>
   </footer>
+
+  <!-- Script -->
+  <script src="js/script.js"></script>
 </body>
 </html>
