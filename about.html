@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar">
     <div class="logo">Neko</div>
     <ul class="nav-links">
@@ -16,10 +15,16 @@
       <li><a href="projects.html">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
+    <label class="switch">
+    <input type="checkbox" id="darkModeToggle">
+    <span class="slider">
+    <span class="icon">🌙</span>
+    </span>
   </nav>
 
   <!-- About Section -->
   <main>
+    <div class="content-wrapper">
     <section class="about">
       <h2>About Me</h2>
       <p>Hi! Saya <strong>Neko</strong>, seorang pelajar yang tertarik pada <em>web development</em>, 
@@ -39,11 +44,13 @@
         <li>Bot Development (WhatsApp, Telegram)</li>
       </ul>
     </section>
+  </div>
   </main>
 
   <!-- Footer -->
   <footer>
     <p>© 2025 Neko. Built with ❤️ and GitHub Pages.</p>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
