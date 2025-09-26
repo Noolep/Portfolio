@@ -1,69 +1,40 @@
 # 🌐 Neko Portfolio Website
 
-Hi! 👋 Ini adalah website portfolio pribadi saya, dibuat dengan **HTML, CSS, dan sedikit JavaScript**.  
-Website ini saya hosting gratis menggunakan **GitHub Pages**.
+Welcome to my portfolio website! 🚀  
+Website ini dibuat dengan **HTML, CSS, dan JavaScript** lalu di-host menggunakan **GitHub Pages**.  
+Proyek ini menampilkan profil, skill, project, serta form kontak sederhana.
 
 ---
 
-## 📌 Fitur
-- Responsive design (support desktop & mobile)
-- Navbar navigasi ke halaman: Home, About, Projects, Contact
-- Hero section dengan background image
-- About section dengan deskripsi diri & skill list
-- Projects section untuk showcase karya saya
-- Contact section (form + social links)
+## ✨ Fitur Utama
+- 🌟 **Hero Section Fullscreen** dengan background image + typing effect.
+- 🎨 **Dark/Light Mode Switch** berbentuk toggle slider (🌙 / ☀️) dengan animasi smooth.
+- ⚡ **Neon Glow Button** di Hero Section untuk akses ke halaman Projects.
+- 🔮 **Animated Heading** → "Welcome to My Portfolio" dengan outline + glow neon.
+- 🖥️ **Sticky & Shrinking Navbar** → mengecil saat scroll dan bisa toggle menu lewat logo.
+- 📝 **Halaman Lengkap**:
+  - Home (Hero + CTA)
+  - About (biodata & skill list)
+  - Projects (card grid responsive)
+  - Contact (form + social links)
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
-- HTML5
-- CSS3 (Flexbox, Grid, Responsive)
-- GitHub Pages (Hosting)
+- **HTML5** (struktur halaman)
+- **CSS3** (Flexbox, Grid, Neon Glow, Dark Mode, Animasi)
+- **JavaScript (Vanilla JS)**  
+  - Dark/Light mode toggle dengan `localStorage`
+  - Typing effect dengan cursor blinking
+  - Navbar shrink + toggle menu
+- **GitHub Pages** (hosting gratis)
 
 ---
 
 ## 🚀 Live Demo
-👉 [Klik di sini untuk melihat website](https://noolep.github.io/Portfolio/)  
+👉 [Klik di sini untuk melihat website](https://username.github.io/portfolio)  
+*(ganti `username` dengan akun GitHub kamu)*
 
 ---
 
-## 📂 Struktur Folder
-/portfolio
-
-│
-
-├── index.html
-
-├── about.html
-
-├── projects.html
-
-├── contact.html
-
-│
-
-├── /css
-
-│ └── style.css
-
-│
-
-├── /img
-
-│ └── hero-bg.jpg
-
-│
-
-└── README.md
-
-## ✨ Tentang Saya
-Saya **Neko**, seorang pelajar yang tertarik pada **Web Development, Cybersecurity, dan AI**.  
-Saya suka bereksperimen dengan teknologi baru, seperti **bot, automation, dan AI assistant (Live2D, TTS)**.  
-Tujuan saya adalah menjadi seorang **Cyber Security** profesional. 💻⚡
-
----
-
-## 📬 Kontak
-- Email: [renaissancericharda@gmail.com](mailto:RenaissanceRicharda@gmail.com)  
-- GitHub: [Noolep.com/username](https://Noolep.com/username)  
-- WhatsApp: [+62 81389695541](https://wa.me/6281389695541)
+## 📂 Struktur Project
