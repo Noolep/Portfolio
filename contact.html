@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar">
     <div class="logo">Neko</div>
     <ul class="nav-links">
@@ -16,10 +15,16 @@
       <li><a href="projects.html">Projects</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
+    <label class="switch">
+    <input type="checkbox" id="darkModeToggle">
+    <span class="slider">
+    <span class="icon">🌙</span>
+    </span>
   </nav>
 
   <!-- Contact Section -->
   <main>
+    <div class="content-wrapper">
     <section class="contact">
       <h2>Contact Me</h2>
       <p>Kalau tertarik bekerja sama, silakan hubungi saya lewat form atau media berikut:</p>
@@ -37,11 +42,13 @@
         <p>WhatsApp: <a href="https://wa.me/6281389695541" target="_blank">+62 81389695541</a></p>
       </div>
     </section>
+  </div>
   </main>
 
   <!-- Footer -->
   <footer>
     <p>© 2025 Neko. Built with ❤️ and GitHub Pages.</p>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
