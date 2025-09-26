@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar">
     <div class="logo">Neko</div>
     <ul class="nav-links">
@@ -16,10 +15,16 @@
       <li><a href="projects.html" class="active">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
+    <label class="switch">
+    <input type="checkbox" id="darkModeToggle">
+    <span class="slider">
+    <span class="icon">🌙</span>
+    </span>
   </nav>
 
   <!-- Projects Section -->
   <main>
+    <div class="content-wrapper">
     <section class="projects">
       <h2>My Projects</h2>
       <p>Berikut beberapa proyek yang pernah saya kerjakan (latihan maupun nyata):</p>
@@ -28,7 +33,7 @@
         <div class="project-card">
           <h3>Portfolio Website</h3>
           <p>Website pribadi untuk menunjukkan profil, skill, dan project. Dibuat dengan HTML, CSS, dan JavaScript.</p>
-          <a href="index.html" class="btn">View</a>
+          <a href="https://github.com/Noolep/Belajar" class="btn">View</a>
         </div>
 
         <div class="project-card">
@@ -43,6 +48,7 @@
           <a href="#" class="btn">Demo</a>
         </div>
       </div>
+    </div>
     </section>
   </main>
 
@@ -50,5 +56,6 @@
   <footer>
     <p>© 2025 Neko. Built with ❤️ and GitHub Pages.</p>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
