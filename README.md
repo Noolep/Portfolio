@@ -32,9 +32,50 @@ Proyek ini menampilkan profil, skill, project, serta form kontak sederhana.
 ---
 
 ## 🚀 Live Demo
-👉 [Klik di sini untuk melihat website](https://username.github.io/portfolio)  
-*(ganti `username` dengan akun GitHub kamu)*
+👉 [Klik di sini untuk melihat website](https://Noolep.github.io/portfolio)  
 
 ---
 
 ## 📂 Struktur Project
+/portfolio
+│
+├── index.html # Halaman utama (Hero + Footer)
+├── about.html # Biodata & skill
+├── projects.html # Daftar project
+├── contact.html # Form kontak
+│
+├── /css
+│ └── style.css # Styling utama (responsive, dark mode, neon, animasi)
+│
+├── /js
+│ └── script.js # Interaksi (dark mode switch, typing effect, navbar shrink)
+│
+├── /img
+│ └── hero-bg.jpg # Background hero
+│
+└── README.md
+
+---
+
+## 📸 Preview
+- Hero Section dengan **neon button** + typing effect.
+- Navbar shrink saat scroll.
+- Switch Dark/Light mode 🌙☀️.
+- Projects ditampilkan dalam card grid.
+
+---
+
+## 👤 Tentang Saya
+Saya **Neko**, seorang pelajar yang tertarik pada:  
+- 🌐 Web Development  
+- 🔐 Cybersecurity (White Hat Hacking)  
+- 🤖 AI & Bot Development  
+
+Tujuan saya adalah menjadi seorang **White Hat Hacker profesional** dan terus mengembangkan skill di dunia teknologi.
+
+---
+
+## 📬 Kontak
+- Email: [RenaissanceRicharda@gmail.com](mailto:renaissancericharda@gmail.com)  
+- GitHub: [github.com/Noolep](https://github.com/Noolep)  
+- WhatsApp: [+62 813 8969 5541](https://wa.me/6281389695541)
