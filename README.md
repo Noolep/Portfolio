@@ -38,22 +38,39 @@ Proyek ini menampilkan profil, skill, project, serta form kontak sederhana.
 
 ## 📂 Struktur Project
 /portfolio
+
 │
+
 ├── index.html # Halaman utama (Hero + Footer)
+
 ├── about.html # Biodata & skill
+
 ├── projects.html # Daftar project
+
 ├── contact.html # Form kontak
+
 │
+
 ├── /css
+
 │ └── style.css # Styling utama (responsive, dark mode, neon, animasi)
+
 │
+
 ├── /js
+
 │ └── script.js # Interaksi (dark mode switch, typing effect, navbar shrink)
+
 │
+
 ├── /img
+
 │ └── hero-bg.jpg # Background hero
+
 │
+
 └── README.md
+
 
 ---
 
