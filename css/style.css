@@ -169,11 +169,10 @@ nav.scrolled {
 /* =======================================================
    3. HERO SECTION (Homepage)
    ======================================================= */
-
 .hero {
   position: relative;
-  height: 100dvh;          /* dynamic viewport height → aman di HP */
-  min-height: 100vh;
+  height: 100dvh;          
+  min-height: 100vh;     
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +183,6 @@ nav.scrolled {
   padding: 0;
 }
 
-/* Layer background crossfade */
 .hero::before,
 .hero::after {
   content: "";
@@ -194,25 +192,31 @@ nav.scrolled {
   right: 0;
   bottom: 0;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   transition: opacity 0.8s ease-in-out;
   z-index: -1;
 }
 
-/* Default Light Mode (Desktop) */
+/* Light Mode (pakai image-set) */
 .hero::before {
-  background-image: url("../img/hero-bg-light.jpg");
+  background-image: image-set(
+    url("../img/hero-bg-light-mobile.jpg") 1x,  /* HP/resolusi kecil */
+    url("../img/hero-bg-light.jpg") 2x         /* Desktop/resolusi besar */
+  );
   opacity: 1;
 }
 
-/* Default Dark Mode (Desktop) */
+/* Dark Mode (pakai image-set) */
 .hero::after {
-  background-image: url("../img/hero-bg-dark.jpg");
+  background-image: image-set(
+    url("../img/hero-bg-dark-mobile.jpg") 1x,
+    url("../img/hero-bg-dark.jpg") 2x
+  );
   opacity: 0;
 }
 
-/* Dark Mode aktif → crossfade */
+/* Switch ke Dark Mode */
 :root[data-theme="dark"] .hero::before {
   opacity: 0;
 }
@@ -223,8 +227,8 @@ nav.scrolled {
 /* Hero Text */
 .hero-text {
   position: relative;
-  padding: 1rem;
   z-index: 1;
+  padding: 1rem;
 }
 
 .hero-text h1 {
@@ -236,27 +240,20 @@ nav.scrolled {
   margin: 0.5rem 0 0;
 }
 
-/* ================================
-   📱 Mobile Optimized Background
-   ================================ */
+/* ✅ Mobile Adjustments */
 @media (max-width: 768px) {
-  .hero::before {
-    background-image: url("../img/hero-bg-light-mobile.jpg");
-  }
-
-  .hero::after {
-    background-image: url("../img/hero-bg-dark-mobile.jpg");
+  .hero {
+    padding: 0 1rem;
   }
 
   .hero-text h1 {
-    font-size: 1.8rem; /* biar muat */
+    font-size: 1.8rem;
   }
 
   #typing-text {
     font-size: 1rem;
   }
 }
-
 
 /* Cursor blinking effect */
 .cursor {
@@ -452,3 +449,4 @@ section h2 {
     font-size: 2rem;
   }
 }
+
