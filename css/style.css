@@ -170,27 +170,22 @@ nav.scrolled {
    3. HERO SECTION (Homepage)
    ======================================================= */
 
-/* Default Hero (Light Mode) */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
+/* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;           /* penuh layar */
-  min-height: 100vh;       /* fallback */
+  height: 100dvh;          /* dynamic viewport height untuk HP */
+  min-height: 100vh;       /* fallback untuk browser lama */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   overflow: hidden;
   color: #fff;
-  margin: 0;               /* hapus gap */
+  margin: 0;
   padding: 0;
 }
 
+/* Layer BG untuk crossfade */
 .hero::before,
 .hero::after {
   content: "";
@@ -200,7 +195,8 @@ html, body {
   right: 0;
   bottom: 0;
   background-size: cover;
-  background-position: center;
+  background-position: center center; /* fokus tengah agar tidak crop aneh */
+  background-repeat: no-repeat;
   transition: opacity 0.8s ease-in-out;
   z-index: -1;
 }
@@ -226,28 +222,35 @@ html, body {
   opacity: 1;
 }
 
+/* Hero Text */
+.hero-text {
+  position: relative;
+  padding: 1rem;
+  z-index: 1;
+}
+
 .hero-text h1 {
-  font-size: 3rem;
-  font-weight: 900;
-  color: #000;
-  -webkit-text-stroke: 2px #38bdf8;
-  text-shadow: 0 0 10px #0ea5e9, 0 0 20px #38bdf8;
+  font-size: 2.5rem;
+  margin: 0;
 }
 
 .hero-text p {
-  font-size: 1.3rem;
-  margin-bottom: 1.5rem;
+  margin: 0.5rem 0 0;
 }
 
-#typing-text {
-  font-size: 1.2rem;
-  font-weight: bold;
-  background: linear-gradient(90deg, #38bdf8, #0ea5e9);
-  background-clip: text;     
-  -webkit-background-clip: text;      
-  color: transparent;                 
-  -webkit-text-fill-color: transparent; 
-  text-shadow: 0 0 6px rgba(0,0,0,0.6);
+/* Responsive untuk HP */
+@media (max-width: 768px) {
+  .hero {
+    padding: 0 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem; /* lebih kecil biar muat */
+  }
+
+  #typing-text {
+    font-size: 1rem;
+  }
 }
 
 /* Cursor blinking effect */
@@ -444,3 +447,4 @@ section h2 {
     font-size: 2rem;
   }
 }
+
