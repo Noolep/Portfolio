@@ -171,8 +171,8 @@ nav.scrolled {
    ======================================================= */
 .hero {
   position: relative;
-  height: 100dvh;          
-  min-height: 100vh;     
+  height: 100dvh; 
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,6 +183,7 @@ nav.scrolled {
   padding: 0;
 }
 
+/* Background layer untuk crossfade */
 .hero::before,
 .hero::after {
   content: "";
@@ -194,20 +195,20 @@ nav.scrolled {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: opacity 0.8s ease-in-out;
+  transition: opacity 1s ease-in-out;
   z-index: -1;
 }
 
-/* Light Mode (pakai image-set) */
+/* Light Mode */
 .hero::before {
   background-image: image-set(
-    url("../img/hero-bg-light-mobile.jpg") 1x,  /* HP/resolusi kecil */
-    url("../img/hero-bg-light.jpg") 2x         /* Desktop/resolusi besar */
+    url("../img/hero-bg-light-mobile.jpg") 1x,
+    url("../img/hero-bg-light.jpg") 2x   
   );
   opacity: 1;
 }
 
-/* Dark Mode (pakai image-set) */
+/* Dark Mode */
 .hero::after {
   background-image: image-set(
     url("../img/hero-bg-dark-mobile.jpg") 1x,
@@ -240,7 +241,7 @@ nav.scrolled {
   margin: 0.5rem 0 0;
 }
 
-/* ✅ Mobile Adjustments */
+/* Responsive Adjustment untuk HP */
 @media (max-width: 768px) {
   .hero {
     padding: 0 1rem;
@@ -449,4 +450,5 @@ section h2 {
     font-size: 2rem;
   }
 }
+
 
