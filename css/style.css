@@ -301,10 +301,10 @@ nav.scrolled {
   font-weight: bold;
   background: linear-gradient(90deg, #38bdf8, #0ea5e9);
   background-clip: text;
-  -webkit-background-clip: text;     /* untuk Chrome/Safari */
+  -webkit-background-clip: text;  
   color: transparent;
-  -webkit-text-fill-color: transparent; /* untuk Chrome/Safari */
-  text-shadow: 0 0 6px rgba(0,0,0,0.6); /* biar tetap kebaca */
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 6px rgba(0,0,0,0.6); 
 }
 
 /* =======================================================
@@ -487,3 +487,4 @@ section h2 {
     font-size: 2rem;
   }
 }
+
