@@ -32,7 +32,7 @@ Proyek ini menampilkan profil, skill, project, serta form kontak sederhana.
 ---
 
 ## 🚀 Live Demo
-👉 [Klik di sini untuk melihat website]([https://Noolep.github.io/portfolio])  
+👉 [Klik di sini untuk melihat website](https://Noolep.github.io/portfolio)  
 
 ---
 
