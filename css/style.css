@@ -203,13 +203,13 @@ nav.scrolled {
 
 /* Light Mode */
 .hero::before {
-  background-image: url("../img/hero-bg-light.jpg");
+  background-image: url("../img/hero-bg-light2.jpg");
   opacity: 1;
 }
 
 /* Dark Mode */
 .hero::after {
-  background-image: url("../img/hero-bg-dark.jpg");
+  background-image: url("../img/hero-bg-dark2.jpg");
   opacity: 0;
 }
 
@@ -487,4 +487,5 @@ section h2 {
     font-size: 2rem;
   }
 }
+
 
